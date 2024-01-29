@@ -1,6 +1,6 @@
 version: 0.2
 name: production
- 
+
 phases:
   install:
     runtime-versions:
@@ -10,18 +10,18 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies.
- 
+
   build:
     commands:
+      - ls -la
+      - npm config set @apf:registry=http://35.169.115.77:4873/
       - npm install
       - npm run build
- 
- 
       - ls -la
       - aws s3 mv --recursive build/ s3://apf-hero-brik/
 post_build:
-    commands:
-      - echo Build completed on `date`
+  commands:
+    - echo Build completed on `date`
 artifacts:
   files:
-    - '*/*'
+    - "*/*"
