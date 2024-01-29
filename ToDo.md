@@ -1,0 +1,2 @@
+- write a script to upload template to s3 bucket
+-
