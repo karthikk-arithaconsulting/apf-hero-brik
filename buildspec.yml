@@ -1,0 +1,27 @@
+version: 0.2
+name: production
+ 
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo Installing
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies.
+ 
+  build:
+    commands:
+      - npm install
+      - npm run build
+ 
+ 
+      - ls -la
+      - aws s3 mv --recursive build/ s3://apf-hero-brik/
+post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '*/*'
