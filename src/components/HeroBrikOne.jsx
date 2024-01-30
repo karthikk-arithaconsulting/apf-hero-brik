@@ -23,16 +23,16 @@ function HeroOne(props){
                     </div>
                     <div className="ParentContainerContentDiv">
                         <div className="ParentTitleDiv">
-                            <Title c={titleObj.style.font.color} fz={titleObj.style.font.size} fw={titleObj.style.font.weight} lh={titleObj.style.lineHeight} ta="left">
+                            <Title style={{ fontFamily: titleObj.style.font.family }} c={titleObj.style.font.color} fz={titleObj.style.font.size} fw={titleObj.style.font.weight} lh={titleObj.style.lineHeight} ta="left">
                                { titleObj.content.value}
                             </Title>
                         </div>
 
                         <div className="ChildContainerTextDiv">
-                            <Text color={textObj.style.font.color} ta="left" fz={textObj.style.font.size} fw={textObj.style.font.weight} lh={textObj.style.lineHeight}> {textObj.content.value}</Text>
+                            <Text  style={{ fontFamily: textObj.style.font.family }} color={textObj.style.font.color} ta="left" fz={textObj.style.font.size} fw={textObj.style.font.weight} lh={textObj.style.lineHeight}> {textObj.content.value}</Text>
                         </div>
                         <div className="ParentButtonDiv">
-                            <Button size={buttonObj.style.font.size} variant="filled" color={buttonObj.style.backgroundColor} className="ChildButtonDiv">{buttonObj.content.value}</Button>
+                            <Button style={{ color: buttonObj.style.font.color, backgroundColor: buttonObj.style.backgroundColor ,fontFamily: buttonObj.style.font.family}}  size={buttonObj.style.font.size} variant="filled"  className="ChildButtonDiv">{buttonObj.content.value}</Button>
                         </div>
                     </div>
             
