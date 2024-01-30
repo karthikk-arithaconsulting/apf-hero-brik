@@ -2,7 +2,7 @@
   "name": "@apf/brik-hero-one",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/briks",
+  "homepage": "./",
   "dependencies": {
     "@apf/app-wrapper": "^0.1.4",
     "@apf/core": "^0.0.4-6",
