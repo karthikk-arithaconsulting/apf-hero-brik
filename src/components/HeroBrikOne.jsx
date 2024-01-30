@@ -23,16 +23,16 @@ function HeroOne(props){
                     </div>
                     <div className="ParentContainerContentDiv">
                         <div className="ParentTitleDiv">
-                            <Title c="white" fw="900" size="55" ta="left">
+                            <Title c={titleObj.style.font.color} fz={titleObj.style.font.size} fw={titleObj.style.font.weight} lh={titleObj.style.lineHeight} ta="left">
                                { titleObj.content.value}
                             </Title>
                         </div>
 
                         <div className="ChildContainerTextDiv">
-                            <Text size="xl"color="white" ta="left" fw="500"> {textObj.content.value}</Text>
+                            <Text color={textObj.style.font.color} ta="left" fz={textObj.style.font.size} fw={textObj.style.font.weight} lh={textObj.style.lineHeight}> {textObj.content.value}</Text>
                         </div>
                         <div className="ParentButtonDiv">
-                            <Button size="md" variant="default" color="white" className="ChildButtonDiv">{buttonObj.content.value}</Button>
+                            <Button size={buttonObj.style.font.size} variant="filled" color={buttonObj.style.backgroundColor} className="ChildButtonDiv">{buttonObj.content.value}</Button>
                         </div>
                     </div>
             

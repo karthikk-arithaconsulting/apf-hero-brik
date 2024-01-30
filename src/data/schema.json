@@ -69,12 +69,13 @@
       "style": {
         "font": {
           "family": "",
-          "size": "",
+          "size": "55",
           "style": "",
-          "color": "",
-          "weight": ""
+          "color": "white",
+          "weight": "900"
         },
-        "backgroundColor": ""
+        "backgroundColor": "",
+        "lineHeight": "1.5"
       },
       "editable": true,
       "display": "block"
@@ -90,12 +91,13 @@
       "style": {
         "font": {
           "family": "",
-          "size": "",
+          "size": "lg",
           "style": "",
-          "color": "",
-          "weight": ""
+          "color": "white",
+          "weight": "500"
         },
-        "backgroundColor": ""
+        "backgroundColor": "",
+        "lineHeight":""
       },
       "editable": true,
       "display": "block"
