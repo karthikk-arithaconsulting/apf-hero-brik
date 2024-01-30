@@ -22,7 +22,8 @@ phases:
      # - aws s3 cp --recursive build/ s3://brikcase/hero-brik/
    #   - aws s3api put-object --bucket apf-hero-brik --key hero-brik2/
    #   - aws s3 cp --recursive build/ s3://apf-hero-brik/hero-brik2/
-      - aws s3 cp --recursive build/ s3://brikcase/
+     # - aws s3 cp --recursive build/ s3://brikcase/
+      - aws s3 cp --recursive build/ s3://apf-hero-brik/
 post_build:
   commands:
     - echo Build completed on `date`
