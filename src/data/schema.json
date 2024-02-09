@@ -19,10 +19,11 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "image",
+        "label": "Background Image",
+        "type": "img",
         "for": "background",
-        "link": "https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_1280.jpg"
+        "src":"https://cdn.pixabay.com/photo/2016/08/19/22/26/landscape-1606431_640.png",
+        "link": ""
       },
       "style": {
         "font": {
@@ -40,10 +41,33 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "image",
-        "for": "hover",
-        "link": "https://media.geeksforgeeks.org/wp-content/uploads/20230406152358/CN-(1).jpg"
+        "label": "Sub Image",
+        "type": "img",
+        "for": "image one",
+        "src":"https://media.geeksforgeeks.org/wp-content/uploads/20230406152358/CN-(1).jpg",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "",
+        "label": "Logo",
+        "type": "img",
+        "for": "logo",
+        "src":"https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png",
+        "link": ""
       },
       "style": {
         "font": {
@@ -61,18 +85,18 @@
     {
       "content": {
         "value": "Aritha Technology WE DELIVER WHAT WE COMMIT",
-        "label": "",
+        "label": "Title",
         "type": "title",
-        "for": "heading",
+        "for": "main title",
         "link": ""
       },
       "style": {
         "font": {
           "family": "",
-          "size": "55",
+          "size": "45",
           "style": "",
-          "color": "white",
-          "weight": "900"
+          "color": "black",
+          "weight": "700"
         },
         "backgroundColor": "",
         "lineHeight": "1.5"
@@ -82,8 +106,8 @@
     },
     {
       "content": {
-        "value": "Aritha is a technology services firm",
-        "label": "",
+        "value": "Aritha is a technology services firm, based out of Bengaluru, serving customers worldwide in the areas of Agile Consulting, Telecom and Software development.",
+        "label": "Sub Text",
         "type": "text",
         "for": "",
         "link": ""
@@ -91,9 +115,9 @@
       "style": {
         "font": {
           "family": "",
-          "size": "lg",
+          "size": "30",
           "style": "",
-          "color": "white",
+          "color": "black",
           "weight": "500"
         },
         "backgroundColor": "",
@@ -105,7 +129,7 @@
     {
       "content": {
         "value": "Read more",
-        "label": "",
+        "label": "Button",
         "type": "button",
         "for": "",
         "link": ""
@@ -113,12 +137,14 @@
       "style": {
         "font": {
           "family": "",
-          "size": "",
+          "size": "xl",
           "style": "",
           "color": "",
           "weight": ""
         },
-        "backgroundColor": ""
+        "backgroundColor": "",
+        "width":"",
+        "height":""
       },
       "editable": true,
       "display": "block"

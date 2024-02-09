@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "./",
   "dependencies": {
-    "@apf/app-wrapper": "^0.1.4",
+    "@apf/app-wrapper": "^0.2.0",
     "@apf/core": "^0.0.4-6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
