@@ -22,7 +22,7 @@
         "label": "Background Image",
         "type": "img",
         "for": "background",
-        "src":"https://cdn.pixabay.com/photo/2016/08/19/22/26/landscape-1606431_640.png",
+        "src":"https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=600",
         "link": ""
       },
       "style": {
@@ -44,29 +44,7 @@
         "label": "Sub Image",
         "type": "img",
         "for": "image one",
-        "src":"https://media.geeksforgeeks.org/wp-content/uploads/20230406152358/CN-(1).jpg",
-        "link": ""
-      },
-      "style": {
-        "font": {
-          "family": "",
-          "size": "",
-          "style": "",
-          "color": "",
-          "weight": ""
-        },
-        "backgroundColor": ""
-      },
-      "editable": true,
-      "display": "block"
-    },
-    {
-      "content": {
-        "value": "",
-        "label": "Logo",
-        "type": "img",
-        "for": "logo",
-        "src":"https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png",
+        "src":"https://plus.unsplash.com/premium_photo-1674057858191-c2de80d6049a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D",
         "link": ""
       },
       "style": {
@@ -93,9 +71,9 @@
       "style": {
         "font": {
           "family": "",
-          "size": "45",
+          "size": "39",
           "style": "",
-          "color": "black",
+          "color": "white",
           "weight": "700"
         },
         "backgroundColor": "",
@@ -115,9 +93,9 @@
       "style": {
         "font": {
           "family": "",
-          "size": "30",
+          "size": "22",
           "style": "",
-          "color": "black",
+          "color": "white",
           "weight": "500"
         },
         "backgroundColor": "",
@@ -132,19 +110,21 @@
         "label": "Button",
         "type": "button",
         "for": "",
-        "link": ""
+        "link": "",
+        "target":"_self"
       },
       "style": {
         "font": {
           "family": "",
-          "size": "xl",
+          "size": "",
           "style": "",
           "color": "",
           "weight": ""
         },
         "backgroundColor": "",
         "width":"",
-        "height":""
+        "height":"",
+        "radius":""
       },
       "editable": true,
       "display": "block"
