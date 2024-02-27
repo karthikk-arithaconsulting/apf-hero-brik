@@ -12,7 +12,7 @@
       "color": "",
       "weight": ""
     },
-    "backgroundColor": "",
+    "backgroundColor": "black",
     "color": ""
   },
   "data": [
@@ -116,14 +116,14 @@
       "style": {
         "font": {
           "family": "",
-          "size": "",
+          "size": "22",
           "style": "",
           "color": "",
           "weight": ""
         },
         "backgroundColor": "",
-        "width":"",
-        "height":"",
+        "width":"150px",
+        "height":"30px",
         "radius":""
       },
       "editable": true,

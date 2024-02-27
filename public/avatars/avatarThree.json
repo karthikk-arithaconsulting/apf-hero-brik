@@ -1,0 +1,138 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "black",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "background",
+          "src": "https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Sub Image",
+          "type": "img",
+          "for": "image one",
+          "src": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "none",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Aritha Technology WE DELIVER WHAT WE COMMIT",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "35px",
+            "style": "",
+            "color": "",
+            "weight": "700"
+          },
+          "backgroundColor": "",
+          "lineHeight": "1.5"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Aritha is a technology services firm, based out of Bengaluru, serving customers worldwide in the areas of Agile Consulting, Telecom and Software development.",
+          "label": "Sub Text",
+          "type": "text",
+          "for": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "22",
+            "style": "",
+            "color": "",
+            "weight": "500"
+          },
+          "backgroundColor": "",
+          "lineHeight": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Read more",
+          "label": "Button",
+          "type": "button",
+          "for": "",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "20px",
+            "style": "",
+            "color": "#ffffff",
+            "weight": ""
+          },
+          "backgroundColor": "#52b788",
+          "width": "200px",
+          "height": "",
+          "radius": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": true
+      }
+    ]
+  }

@@ -26,7 +26,7 @@ function HeroOne(props){
                     <Text  c={textObj?.style?.font.color} fz={textObj?.style?.font?.size} style={{ fontFamily: textObj?.style?.font?.family }} fs={textObj?.style?.font?.style} fw={textObj?.style?.font?.weight} className="hero-text-Tag"> {textObj.content.value}</Text>
                 </div>}
                 {buttonObj && buttonObj?.display === "block" &&<div className="hero-button">
-                    <Button style={{ color: buttonObj.style.font.color, backgroundColor: buttonObj.style.backgroundColor ,fontFamily: buttonObj.style.font.family, height: buttonObj?.style?.height, width: buttonObj?.style?.width}}  variant="Default" radius={buttonObj.style.radius} onClick={handleButtonClick}  className="ChildButtonDiv">{buttonObj.content.value}</Button>
+                    <Button style={{ color: buttonObj.style.font.color, backgroundColor: buttonObj.style.backgroundColor ,fontFamily: buttonObj.style.font.family, height: buttonObj?.style?.height, width: buttonObj?.style?.width}} fz={buttonObj?.style?.font?.size} fw={buttonObj?.style?.font?.weight} variant="Default" radius={buttonObj.style.radius} onClick={handleButtonClick}  className="ChildButtonDiv">{buttonObj.content.value}</Button>
                 </div>}
             </div>
             {hoverImg && hoverImg?.display === "block" &&<div className="child-container-b" style={{

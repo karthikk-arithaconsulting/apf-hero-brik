@@ -11,14 +11,12 @@
 .HeroImageDiv{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:fill;
 }
 
 .Hero-content-container{
     position: absolute;
     display: flex;
-    /* flex-direction: row;
-    justify-content: space-around; */
     height: 100%;
 }
 

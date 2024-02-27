@@ -1,0 +1,154 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#219ebc",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "Want to use Bricksbuilder to create your website first? To help you build your dream website even faster, we created a ton of pre-made bricks builder templates.",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "45",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "Background Image",
+          "src":"https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770_1280.jpg",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "45",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Buy Now",
+          "label": "Button One",
+          "type": "button",
+          "for": "button One",
+          "link": "http://localhost:3002/?editor=false",
+          "target":"_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "lg",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": "",
+          "height":"",
+          "width":""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Learn More",
+          "label": "Button Two",
+          "type": "button",
+          "for": "button Two",
+          "link": "",
+          "target":"_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "lg",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": "",
+          "height":"",
+          "width":""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "Responsive Bricks Templates Pack",
+          "label": "sub text",
+          "type": "subtext",
+          "for": "subText",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "16",
+            "style": "",
+            "color": "",
+            "weight": "900"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Brik Image",
+          "type": "img",
+          "for": "Brik Image",
+          "src":"https://cdn.pixabay.com/photo/2018/01/29/13/03/internet-3116062_640.jpg",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      }
+    ]
+  }

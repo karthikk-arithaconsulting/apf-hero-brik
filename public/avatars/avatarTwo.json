@@ -1,0 +1,138 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#e9ecef",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "background",
+          "src": "https://images.pexels.com/photos/7130475/pexels-photo-7130475.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "none",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "Sub Image",
+          "type": "img",
+          "for": "image one",
+          "src": "https://cdn.pixabay.com/photo/2016/12/18/13/44/download-1915749_640.png",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Aritha Technology ",
+          "label": "Title",
+          "type": "title",
+          "for": "main title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "63px",
+            "style": "",
+            "color": "#000000",
+            "weight": "700"
+          },
+          "backgroundColor": "",
+          "lineHeight": "1.5"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Aritha is a technology services firm, based out of Bengaluru, serving customers worldwide in the areas of Agile Consulting, Telecom and Software development.",
+          "label": "Sub Text",
+          "type": "text",
+          "for": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "16px",
+            "style": "",
+            "color": "#080000",
+            "weight": "500"
+          },
+          "backgroundColor": "",
+          "lineHeight": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Read more",
+          "label": "Button",
+          "type": "button",
+          "for": "",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "24px",
+            "style": "",
+            "color": "#ffffff",
+            "weight": ""
+          },
+          "backgroundColor": "#000000",
+          "width": "154px",
+          "height": "40px",
+          "radius": "10px"
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": true
+      }
+    ]
+  }
